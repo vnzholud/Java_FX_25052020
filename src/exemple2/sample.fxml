@@ -1,0 +1,18 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox fx:controller="exemple2.Controller"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:id="vbox">
+
+    <stylesheets>
+        <URL value="C:\Users\Вячеслав\IdeaProjects\Java_FX_25052020\src\css\style.css"/>
+    </stylesheets>
+
+
+    <Button fx:id="btnadd" text="Add btn" onAction="#btnaddClick"/>
+
+</VBox>
+
